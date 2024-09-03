@@ -1,4 +1,104 @@
 {
+    "Baldurs Gate Wilderness": {
+        "image": "Baldurs_Gate_Wilderness.jpg",
+        "rooms": [{
+            "name": "Crash Landing",
+            "effect": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+            "coordinates": "58,137,613,198",
+            "leads_to": ["Goblin Camp", "Emerald Grove", "Auntie's Teahouse"]
+        },{
+            "name": "Goblin Camp",
+            "effect": "Create a Treasure token.",
+            "coordinates": "58,213,223,273",
+            "leads_to": ["Defiled Temple"]
+        },{
+            "name": "Emerald Grove",
+            "effect": "Create a 2/2 white Knight creature token.",
+            "coordinates": "235,212,438,270",
+            "leads_to": ["Defiled Temple", "Mountain Pass"]
+        },{
+            "name": "Auntie's Teahouse",
+            "effect": "Scry 3.",
+            "coordinates": "450,212,614,271",
+            "leads_to": ["Mountain Pass"]
+        },{
+            "name": "Defiled Temple",
+            "effect": "You may sacrifice a permanent. If you do, draw a card.\n\n",
+            "coordinates": "57,285,332,348",
+            "leads_to": ["Ebonlake Grotto", "Grymforge"]
+        },{
+            "name": "Mountain Pass",
+            "effect": "You may put a land card from your hand onto the battlefield.",
+            "coordinates": "344,286,613,351",
+            "leads_to": ["Grymforge", "Githyanki Crèche"]
+        },{
+            "name": "Ebonlake Grotto",
+            "effect": "Create two 1/1 blue Faerie Dragon creature tokens with flying.",
+            "coordinates": "57,362,223,462",
+            "leads_to": ["Last Light Inn"]
+        },{
+            "name": "Grymforge",
+            "effect": "For each opponent, goad up to one target creature that player controls.",
+            "coordinates": "237,364,439,462",
+            "leads_to": ["Last Light Inn", "Reithwin Tollhouse"]
+        },{
+            "name": "Githyanki Crèche",
+            "effect": "Distribute three +1/+1 counters among up to three target creatures you control.",
+            "coordinates": "452,363,614,461",
+            "leads_to": ["Reithwin Tollhouse"]
+        },{
+            "name": "Last Light Inn",
+            "effect": "Draw two cards.",
+            "coordinates": "58,475,331,538",
+            "leads_to": ["Moonrise Towers", "Gauntlet of Shar"]
+        },{
+            "name": "Reithwin Tollhouse",
+            "effect": "Roll 2d4 and create that many Treasure tokens.",
+            "coordinates": "344,475,614,539",
+            "leads_to": ["Gauntlet of Shar", "Balthazar's Lab"]
+        },{
+            "name": "Moonrise Towers",
+            "effect": "Instant and sorcery spells you cast this turn cost 3 less to cast.",
+            "coordinates": "58,551,223,614",
+            "leads_to": ["Circus of the Last Days"]
+        },{
+            "name": "Gauntlet of Shar",
+            "effect": "Each opponent loses 5 life.",
+            "coordinates": "236,551,402,614",
+            "leads_to": ["Circus of the Last Days", "Undercity Ruins"]
+        },{
+            "name": "Balthazar's Lab",
+            "effect": "Return up to two target creature cards from your graveyard to your hand.",
+            "coordinates": "415,551,613,614",
+            "leads_to": ["Undercity Ruins"]
+        },{
+            "name": "Circus of the Last Days",
+            "effect": "Create a token that’s a copy of one of your commanders, except it’s not legendary.",
+            "coordinates": "58,628,330,690",
+            "leads_to": ["Steel Watch Foundry", "Ansur's Sanctum"]
+        },{
+            "name": "Undercity Ruins",
+            "effect": "Create three 4/1 black Skeleton creature tokens with menace.",
+            "coordinates": "343,628,613,691",
+            "leads_to": ["Ansur's Sanctum", "Temple of Bhaal"]
+        },{
+            "name": "Steel Watch Foundry",
+            "effect": "You get an emblem with “Creatures you control get +2/+2 and have trample.”",
+            "coordinates": "58,705,223,838",
+            "leads_to": []
+        },{
+            "name": "Ansur's Sanctum",
+            "effect": "Reveal the top four cards of your library and put them into your hand. Each opponent loses life equal to those cards’ total mana value.",
+            "coordinates": "234,705,436,838",
+            "leads_to": []
+        },{
+            "name": "Temple of Bhaal",
+            "effect": "Creatures your opponents control get -5/-5 until end of turn.",
+            "coordinates": "451,705,612,838",
+            "leads_to": []
+        }
+    ]
+    },
     "Lost Mine of Phandelver" : {
         "image" : "Lost_Mine_of_Phandelver.jpg",
         "rooms" : [{
